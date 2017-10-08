@@ -6,9 +6,10 @@ body {
 }
 
 .wrapper {
-	width: 1024px;
-	margin: 0 auto;
-	display: block;
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+    background: #2f3a40;
 }
 
 .clear {
@@ -87,6 +88,9 @@ h2.title-bl-right {
 .green-bg {
     background: #afc646;
 }
+.orange-bg {
+    background: #f3943d;
+}
 .blue-bg {
 	background: #7fa5ba;
 }
@@ -107,6 +111,9 @@ h2.title-bl-right.red-bg:after {
 }
 h2.title-bl-right.green-bg:after {
     background: #afc646;
+}
+h2.title-bl-right.orange-bg:after {
+    background: #f3943d;
 }
 h2.title-bl-right.blue-bg:after {
     background: #7fa5ba;
@@ -184,4 +191,123 @@ ul.charts {
 p.scills-name {
     margin: 5px 0;
     font-size: 14px;
+}
+
+.skills-list {
+    color: #fff;
+    padding: 0px 40px;
+    margin-top: 35px;
+}
+p.item-text {
+    margin: 7px;
+}
+ul.list {
+    list-style: none;
+    margin: 5px 0;
+    font-size: 16px;
+    padding-left: 0;
+}
+
+.bl-right {
+    width: calc(100% - 420px);
+    float: right;
+    background: #fff;
+    padding: 0px 20px;
+    color: #2f3a40;
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+h1.name {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 20px 0;
+    margin-bottom: 10px;
+}
+
+p.position {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.section {
+    margin: 35px 0;
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+p.block-name {
+    margin: 5px 0;
+    font-size: 22px;
+    font-weight: 600;
+    background: #2f3a40;
+    color: #fff;
+    padding-left: 10px;
+    padding: 10px 5px;
+}
+p.content {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+ul.ul-context {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.left-con {
+    width: 200px;
+    float: left;
+    display: block;
+}
+
+ul.ul-context {
+    font-size: 16px;
+    margin: 15px 0;
+}
+.right-con {
+    float: right;
+    width: calc(100% - 220px);
+}
+ul.ul-context p {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.section p.content {
+    margin-top: 20px;
+}
+
+ul.ips-list {
+    list-style: none;
+    padding-left: 0;
+}
+.ips.ips-left {
+    float: left;
+    width: calc(50% - 20px);
+    padding-left: 20px;
+}
+ul.ips-list {
+    list-style: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.ips.ips-right {
+    float: left;
+}
+ul.ips-list li {
+    margin: 5px 0;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 16px;
+}
+p.ips-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+ul.ul-context div.left-con p {
+    font-weight: 600;
 }
