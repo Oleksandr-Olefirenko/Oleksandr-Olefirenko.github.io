@@ -22,7 +22,7 @@ body {
 
 .bl-left {
 	float: left;
-	width: 350px;
+	width: 380px;
 	background: #2f3a40;
 }
 
@@ -40,7 +40,7 @@ img.img-ava {
     padding: 20px;
     box-shadow: 8px 15px 26px rgba(0, 0, 0, 0.2);
     width: 240px;
-    margin: 48px auto;
+    margin: 25px auto;
 }
 
 ul.ul-scils {
@@ -48,9 +48,10 @@ ul.ul-scils {
     list-style: none;
     padding-top: 20px;
     margin: 10px 0;
+    margin-bottom: 0;
 }
 
-ul.ul-scils li {
+ul.ul-scils li a {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,13 +59,13 @@ ul.ul-scils li {
 }
 
 ul.ul-scils li i {
-    font-size: 45px;
+    font-size: 36px;
 }
 
 p.text-scils {
-    font-size: 18px;
+    font-size: 14px;
     margin: 0;
-    margin-top: 5px;
+    margin-top: -1px;
     padding-left: 20px;
 }
 
@@ -72,14 +73,22 @@ h2.title-bl-right {
     padding-left: 40px;
     color: #fff;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 25px;
     margin: 0;
     padding: 10px 0 10px 40px;
     position: relative;
+    text-transform: uppercase;
+    z-index: 2;
 }
 
 .red-bg {
-	background: #f07577;
+    background: #f07577;
+}
+.green-bg {
+    background: #afc646;
+}
+.blue-bg {
+	background: #7fa5ba;
 }
 
 h2.title-bl-right:after {
@@ -90,17 +99,89 @@ h2.title-bl-right:after {
     left: 45px;
     transform: rotate(45deg);
     bottom: -14px;
+    z-index: -1;
 }
 
 h2.title-bl-right.red-bg:after {
     background: #f07577;
 }
+h2.title-bl-right.green-bg:after {
+    background: #afc646;
+}
+h2.title-bl-right.blue-bg:after {
+    background: #7fa5ba;
+}
 
 ul.ul-scils li.scils-2 i {
-    font-size: 38px;
+    font-size: 31px;
 }
 
 ul.ul-scils li.scils-3 i {
-    font-size: 45px;
-    margin-top: 9px;
+    font-size: 36px;
+    margin-top: 1px;
+}
+ul.ul-scils li.scils-4 i {
+    font-size: 34px;
+    margin-top: 2px;
+}
+
+a.site {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a.a-none {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.site:hover, a.a-none:hover {
+    color: #f07577;
+}
+
+li.scils-4 p {
+    margin-top: 1px;
+}
+
+.scil-bl {
+    padding-bottom: 20px;
+}
+
+ul.charts {
+    color: #fff;
+    list-style: none;
+    padding-top: 20px;
+    margin: 10px 0;
+    margin-bottom: 0;
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+
+.scills-bg {
+    background: #fff;
+    height: 16px;
+    z-index: 1;
+    position: relative;
+}
+
+.scills-line {
+    height: 16px;
+    position: relative;
+    /* z-index: 333; */
+}
+
+.width-95 {
+    width: 85%!important;
+}
+.width-87 {
+    width: 87%!important;
+}
+.width-85 {
+    width: 85%!important;
+}
+
+p.scills-name {
+    margin: 5px 0;
+    font-size: 14px;
 }
